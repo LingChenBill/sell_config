@@ -10,5 +10,5 @@ spring:
     show-sql: true
 env: test3
 refresh:
-  name: bus-refresh
-  age: 4
+  name: bus-refresh-1
+  age: 5555
