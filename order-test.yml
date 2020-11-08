@@ -11,4 +11,4 @@ spring:
 env: test3
 refresh:
   name: bus-refresh-1
-  age: 5555
+  age: 5
