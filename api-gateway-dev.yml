@@ -1,0 +1,13 @@
+zuul:
+  routes:
+    # 配置路由规则
+#    myProduct:
+#      path: /myProduct/**
+#      serviceId: product
+    # 简洁写法
+    product: /myProduct/**
+  # 排除访问地址
+  ignored-patterns:
+#    - /myProduct/product/listForOrder
+#    - /product/product/listForOrder
+    - /**/product/listForOrder
