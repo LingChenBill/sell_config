@@ -1,4 +1,6 @@
 zuul:
+  # 忽略敏感头(全部微服务都可以传递cookie)
+  sensitive-headers: 
   routes:
     # 配置路由规则
 #    myProduct:
